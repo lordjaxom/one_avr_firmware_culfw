@@ -439,7 +439,7 @@ ISR(TWI_vect) {
     case TW_ST_SLA_ACK: //  slave adressed
     case TW_ST_DATA_ACK:
 
-      //_delay_us(1);
+         _delay_us(3);
 
 	     switch(commandbyte)  {
 
